@@ -1,7 +1,0 @@
-name: 'Scroll to top'
-description: 'Scroll to top module versie voor drupal 8.'
-core : 8.x
-configure: scroll_to_top.form
-type: module
-
-
