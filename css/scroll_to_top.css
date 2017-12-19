@@ -6,16 +6,10 @@ Back to top button
 	bottom: 10px;
 	margin-left: 20px;
 	z-index:499;
-	/*IE6 hack */
-		 _position: absolute;
-		 _top:expression(documentElement.scrollTop+body.scrollTop);
-		 _margin-top: 500px;
+	
 
 }
-body { 
-	/*IE6 hack */
-		_background: url(null) fixed ;
-}
+
 #back-top a,  #back-top-prev a{
 	width: 50px;
 	display: block;
@@ -39,11 +33,10 @@ body {
 	height: 50px;
 	display: block;
 	margin-bottom: 7px;
-	background-color: #ddd; 
 	background-position: center center;
 	background-repeat: no-repeat;
 	
-	background-image: url('up-arrow.png') ;
+	background-image: url('../images/up-arrow.png') ;
 	opacity:0.8;
 	filter:alpha(opacity = 80);
 	/* rounded corners */
