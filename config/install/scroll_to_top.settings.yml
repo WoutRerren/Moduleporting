@@ -1,6 +1,7 @@
-scroll_to_top_label: 'Back to top of the page '
+scroll_to_top_label: 'Back to top of page'
 scroll_to_top_position: 1
 scroll_to_top_bg_color_hover: '#5dfc71'
 scroll_to_top_bg_color_out: '#16284a'
 scroll_to_top_display_text: true
-scroll_to_top_enable_admin: true
+scroll_to_top_enable_admin_theme: true
+
